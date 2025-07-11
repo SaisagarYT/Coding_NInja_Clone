@@ -4,7 +4,7 @@ import Category from '../components/Category'
 
 const Navbar = () => {
   return (
-    <nav className='w-full flex items-center z-20 h-15 text-sm shadow-xl absolute top-0 border-b-gray-300 border-b bg-white'>
+    <nav className='w-full flex items-center z-20 h-15 text-sm shadow-sm fixed top-0 border-b-gray-300 border-b bg-white'>
         <ul className='flex items-center justify-center gap-11 w-full '>
             <div className='py-3 px-2'>
                 <img src={images.mainLogo} className='scale-90' alt="" />

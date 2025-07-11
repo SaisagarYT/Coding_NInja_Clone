@@ -52,3 +52,29 @@
   --bg-dark-6: #141414;
   --bg-black: #000000;
 }
+
+html body{
+  overflow-x: hidden;
+}
+
+header{
+  background-color: rgb(154, 163, 184);
+  background-image: radial-gradient(white 2px,transparent 1px);
+  background-size: 1.2% 1.5%;
+}
+
+.animate-gradient{
+  background: linear-gradient(to right, rgb(117, 117, 253),rgb(70, 206, 251),rgb(246, 100, 124),rgb(255, 175, 26),violet,purple);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 7.5s linear infinite;
+  background-size: 400%;
+}
+
+@keyframes gradient {
+  to{
+    background-position: 100%;
+  }
+  
+}
