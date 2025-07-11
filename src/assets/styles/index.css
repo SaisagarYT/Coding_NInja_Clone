@@ -1,0 +1,54 @@
+@import 'tailwindcss';
+
+:root {
+  /* === TEXT COLORS === */
+  --text-white: #ffffff;
+  --text-off-white: #f8f8f8;
+  --text-light-cream: #ffefd1;
+  --text-light-gray: #e3e3e3;
+  --text-gray-1: #c3c3c3;
+  --text-gray-2: #bdbbb9;
+  --text-gray-3: #bbbbbb;
+  --text-gray-4: #b2b2b2;
+  --text-gray-5: #adadae;
+  --text-warm-tan: #ac9288;
+  --text-gray-6: #979797;
+  --text-orange: #f66c3b;
+  --text-blue: #5780e9;
+  --text-gray-7: #838485;
+  --text-gray-8: #7f7f7f;
+  --text-brown-gray: #6c6865;
+  --text-warm-brown: #745e39;
+  --text-cool-gray: #5e5f60;
+  --text-navy: #394871;
+  --text-link-blue: #0000ee;
+  --text-dark-1: #2d2d2d;
+  --text-dark-2: #1f1f1f;
+  --text-dark-3: #141414;
+  --text-black: #000000;
+
+  /* === BACKGROUND COLORS === */
+  --bg-white: #ffffff;
+  --bg-white-30: #ffffff4d;
+  --bg-white-5: #ffffff0d;
+  --bg-almost-white-1: #fffbf5;
+  --bg-almost-white-2: #fffbf4;
+  --bg-pale-cyan: #f6fbfb;
+  --bg-warm-light: #faf9f7;
+  --bg-light-peach: #fff6f3;
+  --bg-light-indigo: #f5f7fe;
+  --bg-light-gray-1: #f1f2f2;
+  --bg-light-gray-2: #eff1f4;
+  --bg-warm-beige: #f6efea;
+  --bg-light-gray-3: #ececf1;
+  --bg-light-blue: #e6ecfc;
+  --bg-orange: #f66c3b;
+  --bg-warm-brown: #745e39;
+  --bg-dark-1: #2d2d2d;
+  --bg-dark-2: #281e16;
+  --bg-dark-3: #1f1f1f;
+  --bg-dark-4: #1a1a1a;
+  --bg-dark-5: #15181a;
+  --bg-dark-6: #141414;
+  --bg-black: #000000;
+}
