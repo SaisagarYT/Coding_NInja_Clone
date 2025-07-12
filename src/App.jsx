@@ -1,4 +1,5 @@
 import React from 'react'
+import 'remixicon/fonts/remixicon.css';
 import Navbar from './layouts/Navbar'
 import Homepage from './layouts/Homepage'
 import Offerings from './layouts/Offerings'
