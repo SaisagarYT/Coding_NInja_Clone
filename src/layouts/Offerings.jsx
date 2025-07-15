@@ -4,11 +4,11 @@ import images from '../assets/images/images'
 const Offerings = () => {
   return (
     <section className='w-screen h-screen bg-white absolute items-center flex-col flex'>
-      <div className='w-[65%] h-full relative'>
-        <h1 className='text-[var(--bg-light-gray-3)] text-8xl font-bold text-center py-15 border-l-2 border-gray-400 border-dotted'>OUR OFFERINGS</h1>
-        <div className='absolute -left-13 flex items-center'>
-          <img src={images.bootcamp} alt="" />
-          <div className='flex items-center gap-5'>
+      <div className='w-[65%] h-auto relative'>
+        <h1 className='text-[var(--bg-light-gray-3)] text-8xl pt-18 pb-28 font-bold text-center border-l-2 border-gray-400 border-dotted before:w-1 before:h-10 before:bg-red-400 before:content-[""]'>OUR OFFERINGS</h1>
+        <div className='absolute -bottom-13 -left-15 h-30 flex items-center'>
+          <img src={images.bootcamp} className=' h-full' alt="" />
+          <div className='flex items-start h-full pt-9 gap-5'>
             <p className='text-lg font-medium'>Job Bootcamp</p>
             <div className='px-4 text-sm font-medium bg-gray-200 py-1 rounded-r-2xl'>
               For graduation
@@ -16,8 +16,32 @@ const Offerings = () => {
           </div>
         </div>
       </div>
-      <div>
-
+      <div className='w-[65%] h-auto'>
+        {/* cards */}
+        <div className='w-full flex p-10 gap-5 border-l-1  border-dotted'>
+          <div className='w-1/2 h-48 rounded-2xl overflow-hidden shadow-lg'>
+            <div className='w-full bg-[var(--bg-light-indigo)] h-[70%] flex items-center gap-4 justify-between p-4'>
+              <img src={images.stack} className='p-3 size-18 bg-white rounded-full' alt="" />
+              <h1 className='text-lg font-bold'>Full Stack Web Develpment with GenAI</h1>
+            </div>
+            <div className='w-full h-[30%] text-sm p-3 flex items-center justify-between'>
+              <p>140+ Hrs of Content</p>
+              <p>600+ Problems</p>
+              <p>10k+ Learners</p>
+            </div>
+          </div>
+          <div className='w-1/2 h-48 rounded-2xl overflow-hidden shadow-lg'>
+            <div className='w-full bg-[var(--bg-light-indigo)] h-[70%] flex items-center gap-4 justify-between p-4'>
+              <img src={images.graph} className='p-3 size-18 bg-white rounded-full' alt="" />
+              <h1 className='text-lg font-bold'>Full Stack Web Develpment with GenAI</h1>
+            </div>
+            <div className='w-full h-[30%] text-sm p-3 flex items-center justify-between'>
+              <p>140+ Hrs of Content</p>
+              <p>600+ Problems</p>
+              <p>10k+ Learners</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   )
