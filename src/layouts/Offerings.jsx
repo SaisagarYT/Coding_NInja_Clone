@@ -6,7 +6,7 @@ const Offerings = () => {
   return (
     <section className='w-screen bg-white absolute items-center flex-col flex'>
       <div className='w-[65%] h-auto relative'>
-        <h1 className='text-[var(--bg-light-gray-3)] text-8xl pt-18 pb-28 font-bold text-center border-l-2 border-gray-400 border-dotted before:w-1 before:h-10 before:bg-red-400 before:content-[""]'>OUR OFFERINGS</h1>
+        <h1 className='text-[var(--bg-light-gray-3)] text-8xl pt-18 pb-28 font-bold text-center border-l-2 border-gray-400 border-dashed before:w-1 before:h-10 before:bg-red-400 before:content-[""]'>OUR OFFERINGS</h1>
         <div className='absolute -bottom-13 -left-12.5 h-30 flex items-center'>
           <img src={images.bootcamp} className=' size-25' alt="" />
           <div className='flex items-start h-full pt-9 gap-5'>
@@ -19,7 +19,7 @@ const Offerings = () => {
       </div>
       <div className='w-[65%] h-auto'>
         {/* cards */}
-        <div className='w-full flex p-10 gap-5 border-l-1  border-dotted'>
+        <div className='w-full flex p-10 gap-5 border-l-2 border-gray-400  border-dashed'>
           <div className='w-1/2 h-48 rounded-2xl overflow-hidden shadow-lg'>
             <div className='w-full bg-[var(--bg-light-indigo)] h-[70%] flex items-center gap-4 justify-between p-4'>
               <img src={images.stack} className='p-3 size-18 bg-white rounded-full' alt="" />
@@ -45,7 +45,7 @@ const Offerings = () => {
         </div>
       </div>
       <div className='w-full h-full flex justify-center bg-[var(--bg-almost-white-2)] border-gray-400'>
-        <div className='w-[65%] h-full relative border-l-1 border-dotted'>
+        <div className='w-[65%] h-full relative border-l-2 border-dashed border-gray-400'>
           <div className='flex items-center absolute gap-5 -left-5.5 top-20'>
             <img src={images.certificate} className='size-10' alt="certificate" />
             <p className='text-md font-medium'>IIT Certification</p>
@@ -61,6 +61,11 @@ const Offerings = () => {
               <Cards/>
             </div>
           </div>
+        </div>
+      </div>
+      <div className='w-full h-90 bg-white'>
+        <div className='w-[65%] h-full'>
+
         </div>
       </div>
     </section>

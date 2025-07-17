@@ -3,7 +3,7 @@ import images from '../assets/images/images'
 
 const Cards = () => {
   return (
-    <div className='w-65 h-90 bg-white border-2 border-[var(--text-warm-brown)] rounded-2xl'>
+    <div className='w-65 h-90 bg-white border-1 border-[var(--text-warm-brown)] rounded-2xl'>
       <div className='w-full justify-center pt-3 flex'>
         <img src={images.collage1} alt="clg1" />
       </div>
